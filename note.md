@@ -4,7 +4,7 @@
 
 ## 2. annotation 注解说明
 ### 2.1@Autowired 
-默认匹配 byType
+默认匹配 byType.
 
 ### 2.2@Qualifier
 @Qualifier 配合Autowired使用，当Autowired不能唯一自动装配属性，则需要使用
@@ -30,6 +30,5 @@ public class MyConfig{
     }
 }
 ```
-
 
 
